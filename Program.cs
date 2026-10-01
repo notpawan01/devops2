@@ -8,4 +8,7 @@ app.MapGet("/", () =>
 app.MapGet("/student", () =>
     "This application was built using C#, Git, Jenkins and Docker.");
 
+app.MapGet("/test", () =>
+    "testing.......");
+
 app.Run();
